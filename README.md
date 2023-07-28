@@ -6,8 +6,11 @@ seeks to accurately predict whether a patient is diagnosed with COVID-19. The pr
 approach offers the potential for a faster and more accessible diagnostic method, especially in
 areas where RT-PCR testing resources may be limited.
 
-![image](https://github.com/ACM40960/project-SidBagwe98/assets/134402582/3cc62357-2d9c-41bc-82a5-f8495f4b3b75)
+![image|100x100](https://github.com/ACM40960/project-SidBagwe98/assets/134402582/56bc077e-4a71-4969-8433-b8c27b65a1e9)  ![image|100x100](https://github.com/ACM40960/project-SidBagwe98/assets/134402582/c2c74fce-b10d-4c68-8f7f-810d0b9caa66)
 
-
+  
 ## Project Workflow
    
+![image](https://github.com/ACM40960/project-SidBagwe98/assets/134402582/bc2ca92f-cde5-4e02-9ffa-8b46b48beb3c)
+
+
