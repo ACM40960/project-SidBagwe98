@@ -1,4 +1,4 @@
-# DETECTION OF COVID-19 USING CHEST X-RAY
+# Detection of COVID-19 using chest X-Ray
 
 This project aims to leverage chest X-ray images to develop a predictive model for COVID-19
 diagnosis. By analyzing the characteristics and patterns observed in these images, the model
