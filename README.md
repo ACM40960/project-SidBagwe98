@@ -17,6 +17,19 @@ The proposed system works in following steps:
 3) Finally, our model will be evaluated using the test dataset and the results will be noted down which will indicate if the proposed model can be used
    to detect Covid-19 cases. The focus here will be on the false-negatives as the goal is to predict the positive cases of Covid-19 correctly.
 
+## Project Implementation
+
+Follow this step by step guide to predict if a person is diagnosed with Covid-19 or Pneumonia using a chest X-Ray. 
+
+The entire project is done using Jupyter Notebook (Python). The first step is to install Python on your device. You can use Anaconda to install Pythonm as it comes 
+with a number of pre-installed packages generally used in machine learning and data science. This saves a lot of effort and time as one does not need to install each package separately.
+
+Follow the link to install the latest version of Anaconda as per your system OS. 
+https://docs.anaconda.com/free/anaconda/install/index.html
+
+## Packages Required
+
+
 ## Dataset 
 
 For the purpose of the model we use the following dataset which was taken from kaggle.
