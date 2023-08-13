@@ -19,7 +19,7 @@ The proposed system works in following steps:
 
 ## Project Implementation
 
-Follow this step by step guide to predict if a person is diagnosed with Covid-19 or Pneumonia using a chest X-Ray. 
+Follow this step by step guide to be able to predict if a person is diagnosed with Covid-19 or Pneumonia using a chest X-Ray. 
 
 The entire project is done using Jupyter Notebook (Python). The first step is to install Python on your device. You can use Anaconda to install Pythonm as it comes 
 with a number of pre-installed packages generally used in machine learning and data science. This saves a lot of effort and time as one does not need to install each package separately.
@@ -29,10 +29,13 @@ https://docs.anaconda.com/free/anaconda/install/index.html
 
 ## Packages Required
 
+For the purpose of the project you would need a number of packages within python. You can use the pip command in Anaconda prompt to install the following packages.
+
+Next, we open the Jupyter notebook to begin the implementation. First, we import the installed packages using the following commands.
 
 ## Dataset 
 
-For the purpose of the model we use the following dataset which was taken from kaggle.
+To begin implementing our model, we first need the data which will be used to train the model. Here, we use the following dataset which was taken from kaggle.
 
 Link: https://www.kaggle.com/datasets/prashant268/chest-xray-covid19-pneumonia
 
