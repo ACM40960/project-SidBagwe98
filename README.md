@@ -99,7 +99,9 @@ You can find the model in the main code file. The summary of the model can be se
 
 <img src="https://github.com/ACM40960/project-SidBagwe98/assets/134402582/da838707-4408-4c11-8c21-aad68fa70885" width="500" height="400">
 
-The model is then fit for 50 epochs with a batch size of 32. You can do this using the below code. **Beware - Running the model will take time and computing resources.**
+The model is then fit for 50 epochs with a batch size of 32. You can do this using the below code. 
+
+**Beware - Running the model will take time and computing resources.**
 
 ```
 epochs = 50
