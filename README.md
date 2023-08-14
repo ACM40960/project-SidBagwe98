@@ -5,6 +5,10 @@ diagnosis. By analyzing the characteristics and patterns observed in these image
 seeks to accurately predict whether a patient is diagnosed with COVID-19. The proposed
 approach offers the potential for a faster and more accessible diagnostic method, especially in
 areas where RT-PCR testing resources may be limited.
+
+## Background
+
+The first documented instance of a highly transmissible illness caused by the Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) was detected in Wuhan, China, in December 2019. This project aims to leverage chest X-ray images to develop a predictive model for COVID-19 diagnosis. The need for auxiliary diagnostic tools increased as there are no accurate automated toolkits available. Recent findings obtained using radiology imaging techniques suggest that such images contain salient information about the COVID-19 virus. Application of advanced artificial intelligence (AI) techniques coupled with radiological imaging offers the potential for a faster and more accessible diagnostic method, especially in areas where RT-PCR testing resources may be limited.
   
 ## Project Workflow
    
@@ -122,9 +126,9 @@ This has been our best attempt in creating the model with the highest accuracy. 
 
 We are interested in the F1 score of the model. This score provides the balance between precision and recall or in other words it is the accuracy for individual class. From the output below, we can see the overall accuracy is 95.9% for validation and 95.4% for test data. The support count for each class represents the number of images on which the model training and testing was performed.
 
-<img src="https://github.com/ACM40960/project-SidBagwe98/assets/134402582/a48c870e-95b5-4591-84c4-f7454840c052" width="500" height="300"> <img src="https://github.com/ACM40960/project-SidBagwe98/assets/134402582/d3b5b6ae-444f-4bf9-92e7-c987a151d3d4" width="500" height="300">
+<img src="https://github.com/ACM40960/project-SidBagwe98/assets/134402582/a48c870e-95b5-4591-84c4-f7454840c052" width="500" height="300"> <img src="https://github.com/ACM40960/project-SidBagwe98/assets/134402582/d083e420-b2c2-4e77-a1a3-a303a3ab2ebb" width="500" height="300">
 
-To analyze the model classification we look into the Confusion matrix of our proposed model. We can see that the sensitivity (Recall) of Covid-19 (96.2%) is at par with sensitivity of Pneumonia (96.7%). Due to the fatality of the problem in hand, we aim to focus on the False Negatives of the model which is only 1 case out of the total dataset. This is likely due to the overlapping imaging characteristics.
+To analyze the model classification we look into the Confusion matrix of our proposed model. We can see that the sensitivity (Recall) of Covid-19 (96.2%) is at par with sensitivity of Pneumonia (96.7%). Due to the fatality of the problem in hand, we aim to focus on the False Negatives of the model which is only 2 case out of the total dataset. This is likely due to the overlapping imaging characteristics.
 
 ## Grad-Cam Visualisation
 
@@ -133,6 +137,30 @@ Given the severity of the issue at hand, it is imperative that we create a visua
 <img src="https://github.com/ACM40960/project-SidBagwe98/assets/134402582/06689d22-949b-4475-91b6-512de703e212" width="800" height="400">
 
 The high-intensity visuals (blue and green) reflects the area of interest to our model at the time of prediction
+
+## Application
+
+In light of our study to detect Covid-19 using X-ray images, the application of new models has shown promising potential in several areas:
+
+1. Early Detection and Diagnosis: Advanced machine learning models can analyze raw chest X-ray images to detect COVID-19 at an early stage, allowing for quicker diagnosis and appropriate treatment, which is crucial for controlling the spread of the virus and providing timely care to patients.
+
+2. Screening and Triage: Automated systems can be integrated into healthcare facilities to screen and triage patients, identifying those with potential COVID-19 symptoms, which can help reduce the burden on healthcare resources and minimize the risk of transmission in hospital settings.
+
+3. Remote and Point-of-Care Diagnosis: These models could be deployed in remote or point-of-care settings, enabling healthcare professionals in underserved areas or mobile clinics to identify COVID-19 cases rapidly and accurately without the need for immediate access to specialized medical facilities.
+
+4. Support for Radiologists: AI-based models can assist radiologists in interpreting chest X-rays, offering a second opinion, enhancing efficiency, and reducing diagnostic errors. Radiologists can focus more on critical cases, leading to better patient outcomes.
+
+5. Surveillance and Monitoring: Automated COVID-19 detection systems can be used for real-time monitoring of large populations, helping public health authorities track the spread of the virus and implement targeted interventions to contain outbreaks.
+
+6. Research and Data Analysis: The vast amount of data generated from chest X-ray images can be utilized for research purposes, gaining insights into the disease progression, risk factors, and treatment outcomes. AI models can aid researchers in identifying patterns and correlations that might otherwise be challenging to detect manually.
+
+It's important to note that the field of AI in medical imaging and COVID-19 detection is continuously evolving.
+
+## Challenges and opportunities
+
+Models developed for diagnosis and prognostication from radiological imaging data are limited by the quality of their training data. While many public datasets exist for researchers to train deep learning models for these purposes, we have determined that these datasets are not large enough, or of suitable quality, to train reliable models, and all studies using publicly available datasets exhibit a high or unclear risk of bias. However, the size and quality of these datasets can be continuously improved if researchers worldwide submit their data for public review. Because of the uncertain quality of many COVID-19 datasets, it is likely more beneficial to the research community to establish a database that has a systematic review of submitted data than it is to immediately release data of questionable quality as a public database.
+
+The intricate link of any AI algorithm for detection, diagnosis or prognosis of COVID-19 infections to a clear clinical need is essential for successful translation. As such, complementary computational and clinical expertise, in conjunction with high-quality healthcare data, are required for the development of AI algorithms. Meaningful evaluation of an algorithm’s performance is most likely to occur in a prospective clinical setting. Like the need for collaborative development of AI algorithms, the complementary perspectives of experts in machine learning and academic medicine were critical in conducting this systematic review.
 
 ## Conclusion
 
