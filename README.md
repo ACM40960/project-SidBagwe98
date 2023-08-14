@@ -29,9 +29,45 @@ https://docs.anaconda.com/free/anaconda/install/index.html
 
 ## Packages Required
 
-For the purpose of the project you would need a number of packages within python. You can use the pip command in Anaconda prompt to install the following packages.
+For the purpose of the project you would need a number of packages within python. You can use the pip command in Anaconda prompt to install the following packages. Rest of the packages will be already installed through Anaconda. If not use pip to install them
+
+```
+pip install tensorflow
+pip install keras
+pip install opencv-python
+pip install -U albumentations
+
+```
 
 Next, we open the Jupyter notebook to begin the implementation. First, we import the installed packages using the following commands.
+
+```
+import keras
+import cv2, os, gc, glob
+
+import tensorflow as tf
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+import seaborn as sns
+import matplotlib.cm as cm
+
+from tqdm import tqdm
+from tensorflow.keras import layers, models
+
+from keras.models import Sequential, Model
+from keras.layers import Conv2D, MaxPool2D
+from keras.layers import Activation, Dropout, BatchNormalization, Flatten, Dense
+from keras.optimizers import Adam as adam
+from keras.utils import to_categorical
+
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix, classification_report
+from sklearn.preprocessing import LabelEncoder
+import albumentations as A
+
+```
 
 ## Dataset 
 
